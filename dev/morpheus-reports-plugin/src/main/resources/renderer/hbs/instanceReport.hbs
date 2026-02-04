@@ -1,0 +1,22 @@
+<h2>Cloud: {{cloudName}}</h2>
+
+<table>
+  <thead>
+    <th>VM Name</th>
+    <th>vCPU Cores</th>
+    <th>RAM (GB)</th>
+    <th>Storage (GB)</th>
+    <th>Status</th>
+  </thead>
+  <tbody>
+    {{#each rowsBySection.main}}
+      <tr>
+        <td>{{dataMap.name}}</td>
+        <td>{{dataMap.cpu}}</td>
+        <td>{{dataMap.ram}}</td>
+        <td>{{dataMap.storage}}</td>
+        <td>{{dataMap.status}}</td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
