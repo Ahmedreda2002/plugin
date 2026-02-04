@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Plugin-Class: com.morpheusdata.reports.ReportsPlugin
-Plugin-Version: 1.2.1
-
